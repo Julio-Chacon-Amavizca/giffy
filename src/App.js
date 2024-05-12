@@ -34,6 +34,10 @@ function App () {
               component={SearchResults}
               path='/search/:keyword'
             />
+            <Route
+              component={() => <h1>404 ERROR</h1>}
+              path='/404'
+            />
           </GifsContextProvider>
           {/* <Route><ListOfGifs keyword='Toro' /></Route> */}
           {/* {
