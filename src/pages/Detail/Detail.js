@@ -1,17 +1,19 @@
-import GifsContextProvider from 'context/GifsContext'
 import Gif from 'components/Gif/Gif'
-import useGlobalGifs from 'hooks/useGlobalGifs'
+import { useSingleGif } from 'hooks/useSingleGif'
+import { Spinner } from 'react-bootstrap'
+import { Redirect } from 'wouter'
 
 export default function Detail ({ params }) {
-  const gifs = useGlobalGifs(GifsContextProvider)
+  const { gif, isLoading, isError } = useSingleGif({ id: params.id })
 
-  const thegif = gifs.find(singleGif => singleGif.id === params.id)
-  console.log(thegif)
+  if (isLoading) return <Spinner />
+  if (isError) return <Redirect to='/404' />
+  if (!gif) return null
 
   return (
     <>
-      <h3 className='App-title'>{thegif.title}</h3>
-      <Gif {...thegif} />
+      <h3 className='App-title'>{gif.title}</h3>
+      <Gif {...gif} />
     </>
   )
 }
