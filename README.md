@@ -38,7 +38,8 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 ## Uso
 
 Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
-    ```shell
+
+   ```bsh
    npm start
    ```
 
