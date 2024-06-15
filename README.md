@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Giffy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene el código fuente de una aplicación web que permite buscar y visualizar GIFs animados utilizando la API de Giphy.
 
-## Available Scripts
+[!Puedes observar una demo aqui!](https://giffy-sigma-seven.vercel.app/)
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+Giffy es una aplicación web desarrollada con React que permite a los usuarios buscar GIFs animados de la plataforma Giphy. Los usuarios pueden ingresar palabras clave en un campo de búsqueda y obtener resultados relevantes en forma de GIFs animados. Los usuarios pueden observar los gifs en tendencias.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Búsqueda de GIFs animados mediante la API de Giphy.
+- Visualización de resultados en una galería interactiva.
+- Interfaz de usuario responsiva y amigable.
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
-### `npm run build`
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Julio-Chacon-Amavizca/giffy.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navega al directorio del proyecto:
+   ```bash
+   cd giffy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instala las dependencias necesarias:
+   ```bash
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Uso
+Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
+    ```bash
+    npm start
 
-### `npm run eject`
+Esto abrirá la aplicación en tu navegador en la dirección http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Scripts Disponibles
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
+    ```bash
+- npm start: Ejecuta la aplicación en modo de desarrollo.
+- npm test: Inicia el corredor de pruebas en modo interactivo.
+- npm run build: Compila la aplicación para producción en la carpeta build.
+- npm run eject: Elimina la dependencia de creación y permite modificar las configuraciones directamente.
