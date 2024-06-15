@@ -26,26 +26,22 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/Julio-Chacon-Amavizca/giffy.git
-   ```
 
 2. Navega al directorio del proyecto:
    ```bash
    cd giffy
-   ```
 
 3. Instala las dependencias necesarias:
    ```bash
    npm install
-   ```
 
 ## Uso
 
 Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
 
-   ```bash
-   npm install
+   ```shell
+   npm start
    ```
-
 
 Esto abrirá la aplicación en tu navegador en la dirección http://localhost:3000.
 
@@ -53,7 +49,16 @@ Esto abrirá la aplicación en tu navegador en la dirección http://localhost:30
 
 En el directorio del proyecto, puedes ejecutar los siguientes comandos:
 
-- npm start: Ejecuta la aplicación en modo de desarrollo.
-- npm test: Inicia el corredor de pruebas en modo interactivo.
-- npm run build: Compila la aplicación para producción en la carpeta build.
-- npm run eject: Elimina la dependencia de creación y permite modificar las configuraciones directamente.
+1. npm start: Ejecuta la aplicación en modo de desarrollo.
+   ```shell
+   npm start
+   ```
+
+2. npm test: Inicia el corredor de pruebas en modo interactivo.
+   ```shell
+   npm test
+   ```
+3 npm run build: Compila la aplicación para producción en la carpeta build.
+   ```shell
+   npm run build
+   ```
