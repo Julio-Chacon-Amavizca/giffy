@@ -32,7 +32,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 ## Uso
 Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
-    ```bash
+   ```bash
     npm start
 
 Esto abrirá la aplicación en tu navegador en la dirección http://localhost:3000.
@@ -40,7 +40,7 @@ Esto abrirá la aplicación en tu navegador en la dirección http://localhost:30
 ## Scripts Disponibles
 
 En el directorio del proyecto, puedes ejecutar los siguientes comandos:
-    ```bash
+   ```bash
 - npm start: Ejecuta la aplicación en modo de desarrollo.
 - npm test: Inicia el corredor de pruebas en modo interactivo.
 - npm run build: Compila la aplicación para producción en la carpeta build.
