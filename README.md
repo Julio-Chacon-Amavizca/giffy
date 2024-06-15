@@ -31,9 +31,11 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
    npm install
 
 ## Uso
-Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
+
+* Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
    ```bash
-    npm start
+   npm install
+
 
 Esto abrirá la aplicación en tu navegador en la dirección http://localhost:3000.
 
