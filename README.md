@@ -52,9 +52,8 @@ Esto abrirá la aplicación en tu navegador en la dirección http://localhost:30
 ## Scripts Disponibles
 
 En el directorio del proyecto, puedes ejecutar los siguientes comandos:
-   ```bash
-- **npm start: Ejecuta la aplicación en modo de desarrollo.
-- **npm test: Inicia el corredor de pruebas en modo interactivo.
-- **npm run build: Compila la aplicación para producción en la carpeta build.
-- **npm run eject: Elimina la dependencia de creación y permite modificar las configuraciones directamente.
-   ```
+
+- npm start: Ejecuta la aplicación en modo de desarrollo.
+- npm test: Inicia el corredor de pruebas en modo interactivo.
+- npm run build: Compila la aplicación para producción en la carpeta build.
+- npm run eject: Elimina la dependencia de creación y permite modificar las configuraciones directamente.
