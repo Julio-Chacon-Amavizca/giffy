@@ -21,6 +21,9 @@ Giffy es una aplicación web desarrollada con React que permite a los usuarios b
 
 ## Instalación
 
+> [!NOTE]
+> Version de Node utilizada 20.11.0
+
 Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona este repositorio:
